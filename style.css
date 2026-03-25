@@ -1,0 +1,55 @@
+body {
+      font-family: 'Poppins', sans-serif;
+        text-align: center;
+          margin: 0;
+            background: linear-gradient(to bottom, #dfe9f3, #ffffff);
+            }
+
+            .profile-img {
+              border-radius: 50%;
+                width: 100px;
+                  border: 3px solid white;
+                  }
+
+                  .container {
+                    margin-top: 20px;
+                    }
+
+                    .btn {
+                      display: block;
+                        margin: 12px auto;
+                          padding: 14px;
+                            width: 230px;
+                              border-radius: 30px;
+                                text-decoration: none;
+                                  color: white;
+                                    font-weight: 500;
+                                      transition: 0.3s;
+                                      }
+
+                                      .btn:hover {
+                                        transform: scale(1.07);
+                                        }
+
+                                        /* SOCIAL */
+                                        .instagram { background: linear-gradient(45deg,#f09433,#dc2743,#cc2366); }
+                                        .tiktok { background: black; }
+                                        .facebook { background: #1877f2; }
+                                        .linkedin { background: #0077b5; }
+                                        .karate { background: #ff9800; }
+                                        .mail { background: #4caf50; }
+
+                                        /* DARK MODE */
+                                        body.dark-mode {
+                                          background: #1a1a1a;
+                                            color: white;
+                                            }
+
+                                            /* BUTTON */
+                                            button {
+                                              margin-top: 10px;
+                                                padding: 8px 15px;
+                                                  border-radius: 20px;
+                                                    border: none;
+                                                      cursor: pointer;
+                                                      }
